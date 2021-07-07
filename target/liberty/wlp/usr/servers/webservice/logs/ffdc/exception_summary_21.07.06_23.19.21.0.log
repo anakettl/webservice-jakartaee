@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 06/07/2021 23:19:21:244 BRT 06/07/2021 23:19:21:244 BRT java.lang.IllegalArgumentException com.ibm.ws.http.channel.internal.HttpResponseMessageImpl.isGoodCharacters(String) 1
+                                                                            - /home/anakettl/Projetos/webservice/target/liberty/wlp/usr/servers/webservice/logs/ffdc/ffdc_21.07.06_23.19.21.0.log
+------+------+---------------------------+---------------------------+---------------------------

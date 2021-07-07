@@ -1,3 +1,24 @@
+## The Conversion Application
+
+This application offers two types of conversion:
+- km to miles using form encoded
+- Nautical miles to km using json
+
+### How to test
+- Start open liberty server
+- Use a api Client (Postman, Insomnia)
+
+#### Convert Km To Miles
+- Send a POST to `http://localhost:9080/data/api`
+- With Form Url Encoded send a field 'km' with a double value.
+- See the response with the conversion
+
+#### Convert Nautical Miles To Km
+- Send a POST to `http://localhost:9080/data/api`
+- With json a body as `{ "mile": "10" }`
+- See the response with the conversion
+
+
 # MicroProfile generated Application
 
 ## Introduction
